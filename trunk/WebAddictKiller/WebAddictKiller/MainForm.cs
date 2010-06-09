@@ -70,13 +70,6 @@ namespace WebAddictKiller
                 textWriter.WriteString("bbs.sjtu.edu.cn");
                 textWriter.WriteEndElement();
 
-                textWriter.WriteStartElement("Website");
-                textWriter.WriteStartAttribute("Selected");
-                textWriter.WriteString("True");
-                textWriter.WriteEndAttribute();
-                textWriter.WriteString("bbs.sjtu.edu.cn/frame2.html");
-                textWriter.WriteEndElement();
-
                 // Ends the document.
                 textWriter.WriteEndDocument();
                 // close writer
@@ -214,10 +207,11 @@ namespace WebAddictKiller
         private void buttonAddNewWebsite_Click(object sender, EventArgs e)
         {
             addForm = new WebsiteAdditionForm();
-            addForm.ShowDialog();
-            string url = addForm.url;
-            websiteCheckedListBox.Items.Add(addForm.url, true);
-
+            if (addForm.ShowDialog() == DialogResult.OK)
+            {
+                string url = addForm.url;
+                websiteCheckedListBox.Items.Add(addForm.url, true);
+            }
             updateAddictionDatabase();
         }
 

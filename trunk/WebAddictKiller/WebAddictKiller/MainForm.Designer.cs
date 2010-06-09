@@ -39,7 +39,7 @@
             // buttonApply
             // 
             this.buttonApply.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.buttonApply.Location = new System.Drawing.Point(249, 151);
+            this.buttonApply.Location = new System.Drawing.Point(13, 134);
             this.buttonApply.Name = "buttonApply";
             this.buttonApply.Size = new System.Drawing.Size(437, 70);
             this.buttonApply.TabIndex = 0;
@@ -49,28 +49,28 @@
             // 
             // buttonRestore
             // 
-            this.buttonRestore.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.buttonRestore.Location = new System.Drawing.Point(249, 236);
+            this.buttonRestore.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.buttonRestore.Location = new System.Drawing.Point(308, 99);
             this.buttonRestore.Name = "buttonRestore";
-            this.buttonRestore.Size = new System.Drawing.Size(437, 45);
+            this.buttonRestore.Size = new System.Drawing.Size(139, 23);
             this.buttonRestore.TabIndex = 1;
-            this.buttonRestore.Text = "FUCK ME! I AM PATHETIC LOSER!";
+            this.buttonRestore.Text = "I am pathetic LOSER!";
             this.buttonRestore.UseVisualStyleBackColor = true;
             this.buttonRestore.Click += new System.EventHandler(this.buttonRestore_Click);
             // 
             // websiteCheckedListBox
             // 
             this.websiteCheckedListBox.FormattingEnabled = true;
-            this.websiteCheckedListBox.Location = new System.Drawing.Point(250, 12);
+            this.websiteCheckedListBox.Location = new System.Drawing.Point(13, 12);
             this.websiteCheckedListBox.Name = "websiteCheckedListBox";
             this.websiteCheckedListBox.Size = new System.Drawing.Size(289, 116);
             this.websiteCheckedListBox.TabIndex = 3;
             // 
             // buttonSelectAll
             // 
-            this.buttonSelectAll.Location = new System.Drawing.Point(544, 105);
+            this.buttonSelectAll.Location = new System.Drawing.Point(308, 70);
             this.buttonSelectAll.Name = "buttonSelectAll";
-            this.buttonSelectAll.Size = new System.Drawing.Size(142, 23);
+            this.buttonSelectAll.Size = new System.Drawing.Size(139, 23);
             this.buttonSelectAll.TabIndex = 4;
             this.buttonSelectAll.Text = "Select all";
             this.buttonSelectAll.UseVisualStyleBackColor = true;
@@ -78,9 +78,9 @@
             // 
             // buttonAddNewWebsite
             // 
-            this.buttonAddNewWebsite.Location = new System.Drawing.Point(544, 12);
+            this.buttonAddNewWebsite.Location = new System.Drawing.Point(307, 12);
             this.buttonAddNewWebsite.Name = "buttonAddNewWebsite";
-            this.buttonAddNewWebsite.Size = new System.Drawing.Size(142, 23);
+            this.buttonAddNewWebsite.Size = new System.Drawing.Size(140, 23);
             this.buttonAddNewWebsite.TabIndex = 6;
             this.buttonAddNewWebsite.Text = "Add new website";
             this.buttonAddNewWebsite.UseVisualStyleBackColor = true;
@@ -88,9 +88,9 @@
             // 
             // buttonDeleteFromList
             // 
-            this.buttonDeleteFromList.Location = new System.Drawing.Point(544, 59);
+            this.buttonDeleteFromList.Location = new System.Drawing.Point(307, 41);
             this.buttonDeleteFromList.Name = "buttonDeleteFromList";
-            this.buttonDeleteFromList.Size = new System.Drawing.Size(141, 23);
+            this.buttonDeleteFromList.Size = new System.Drawing.Size(140, 23);
             this.buttonDeleteFromList.TabIndex = 7;
             this.buttonDeleteFromList.Text = "Delete from list";
             this.buttonDeleteFromList.UseVisualStyleBackColor = true;
@@ -100,9 +100,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WebAddictKiller.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(698, 293);
+            this.ClientSize = new System.Drawing.Size(458, 217);
             this.Controls.Add(this.buttonDeleteFromList);
             this.Controls.Add(this.buttonAddNewWebsite);
             this.Controls.Add(this.buttonSelectAll);
