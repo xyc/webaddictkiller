@@ -27,8 +27,8 @@ namespace WebAddictKiller
         private string addictionDataPath = @"c:\windows\addictionData.xml";
         private static XPathDocument doc;
         private static XPathNavigator nav;
+        private static string version = "Web Addict Killer Version 0.1";
 
-        private string version = "Web Addict Killer Version 0.1";
         private string beginString, endString, regexString;//for recognizing modified file parts
         private string hostsPath = @"c:\windows\system32\drivers\etc\hosts";//hosts file
 
