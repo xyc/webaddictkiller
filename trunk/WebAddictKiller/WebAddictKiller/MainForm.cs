@@ -143,24 +143,6 @@ namespace WebAddictKiller
             updateDNSHosts(hostsSB.ToString());
 
             MessageBox.Show("YOU GET RID OF WEB ADDICTION!", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //if (!isAddictKilled())
-            //{
-
-
-            //    using (StreamWriter sw = File.AppendText(hostsPath))
-            //    {
-            //        sw.WriteLine(beginString);
-
-            //        for (int i = 0; i < websiteCheckedListBox.Items.Count; i++)
-            //        {
-            //            if (this.websiteCheckedListBox.GetItemChecked(i)){
-            //                sw.WriteLine("127.0.0.1 " + websiteCheckedListBox.GetItemText(websiteCheckedListBox.Items[i]));
-            //            }
-            //        }
-            //        sw.WriteLine(endString);
-            //    }
-            //    updateAddictionDatabase();
-            //}
         }
 
         private void buttonRestore_Click(object sender, EventArgs e)
