@@ -141,6 +141,7 @@ namespace WebAddictKiller
             }
             hostsSB.Append(endString);
             updateDNSHosts(hostsSB.ToString());
+            updateAddictionDatabase();
 
             MessageBox.Show("YOU GET RID OF WEB ADDICTION!", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
@@ -148,6 +149,7 @@ namespace WebAddictKiller
         private void buttonRestore_Click(object sender, EventArgs e)
         {
             updateDNSHosts("");
+            updateAddictionDatabase();
             MessageBox.Show("YOU ARE LOSER ONCE AGAIN!", "Congratulations", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
