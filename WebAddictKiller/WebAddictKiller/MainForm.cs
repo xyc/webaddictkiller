@@ -117,7 +117,7 @@ namespace WebAddictKiller
                 string str = System.IO.File.ReadAllText(hostsPath);
 
                 Regex reg = new Regex(regexString);
-                //delete matched substring
+                //replace matched substring
                 str = reg.Replace(str, hostsInformation);
 
                 using (StreamWriter sw = new StreamWriter(hostsPath))
